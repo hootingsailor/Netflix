@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Login.css";
+import Signup from './Signup';
 
 function Login() {
   const [signIn, setSignIn] = useState(false);
@@ -19,7 +20,7 @@ function Login() {
       </div>
       <div className="login_body">
         {signIn ? (
-          <SignIn />
+          <Signup />
         ) : (
           <>
             <h1>Unlimited films, TV programmes and more.</h1>
