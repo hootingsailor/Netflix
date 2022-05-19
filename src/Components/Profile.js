@@ -24,7 +24,7 @@ function Profile() {
                     <h3>Plans</h3>
                 </div>
                 <button
-                    onClick={auth.signOut()} 
+                    onClick={() => auth.signOut()} 
                     className='profile_signout'>Sign Out</button>
               </div>
           </div>
